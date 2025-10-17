@@ -9,7 +9,7 @@ mainFrame:SetScript("OnEvent", function(event, arg1)
     
     if event == "CHAT_MSG_SPELL_PERIODIC_SELF_BUFFS" then
         if isEnabled == true then
-            if arg1 == "You gain Rallying Cry of the Dragonslayer." then
+            if arg1 == "You gain Rallying Cry of the Dragonslayer" then
                 Logout()
             end
         end
